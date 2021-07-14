@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sub-title {
+  color: #ccc;
+}
+
+.btn-publish {
+  margin-top: 10px;
+}
+
+.con-list {
+  margin-top: 10px;
+  background-color: khaki;
+  border: 1px solid #eaeaea;
+}

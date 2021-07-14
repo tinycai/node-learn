@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <h3>Example page header</h3>
+  <p class="sub-title">Subtext for header</p>
+
+  <a href="./post" class="btn-publish">发表言论</a>
+
+  <div class="con-list">
+    <ul>
+      {{each messages}}
+      <li>{{$value.name}}说{{$value.comment}}-- {{$value.time}}</li>
+      {{/each}}
+    </ul>
+  </div>
+
+  <img src="/public/image/test1.jpg" alt="">
+</body>
+</html>
