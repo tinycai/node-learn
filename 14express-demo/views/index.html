@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <h3>留言展示页面</h3>
+  
+  <a href="/post">发表留言</a>
+
+  <div class="list_con">
+    <ul>
+      {{each list}}
+      <li class="tip">我的名字叫{{$value.name}},今年{{$value.age}}，我想说的话{{$value.comment}} -- {{$value.date}} </li>
+      {{/each}}
+    
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.list_con {
+  background: rgb(186, 160, 235);
+}
+.tip {
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  border: 1px solid #eafafa;
+}
