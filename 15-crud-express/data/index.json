@@ -1,11 +1,1 @@
-{
-  "students": [
-    { "id": 1, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 2, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 3, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 4, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 5, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 6, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"},
-    { "id": 7, "name": "张三", "age": 12, "gender": 0, "hobbies": "吃饭，睡觉，打代码"}
-  ]
-}
+{"students":[{"name":"test大护法的","age":"20","gender":"1","hobbies":"出首付的SV答复","id":5},{"name":"1","age":"1","gender":"1","hobbies":"11","id":4},{"name":"333","age":"33","gender":"1","hobbies":"测试新增","id":3},{"id":1,"name":"222","age":"22","gender":"1","hobbies":"2222"},{"id":2,"name":"111","age":"11","gender":"0","hobbies":"111"}]}
